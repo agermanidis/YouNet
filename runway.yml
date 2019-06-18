@@ -3,4 +3,4 @@ entrypoint: python runway_model.py
 python: 3.6
 cuda: 9.2
 build_steps:
-  - pip install fastai==1.0.52 runway-python scikit-image
+  - pip install fastai==1.0.52 torch==1.0.0 runway-python scikit-image
