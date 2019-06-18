@@ -4,4 +4,4 @@ python: 3.6
 cuda: 9.2
 framework: pytorch
 build_steps:
-  - pip install fastai runway-python scikit-image
+  - pip install fastai==1.0.52 runway-python scikit-image
